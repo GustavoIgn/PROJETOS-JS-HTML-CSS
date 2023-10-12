@@ -1,0 +1,41 @@
+<!-- Lista de Tarefas - VIDEO SUPORTE:-->
+<!-- https://www.youtube.com/watch?v=MxP4jZQY0h4&ab_channel=GustavoNeitzke -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Minha Lista de Tarefas! <img src="Slime....png" alt="Slime" id="img-arte"></h1>
+    </header>
+    <section>
+        <div class="conteudo">
+            <div class="conteudo--adicao">
+                <input type="txttarefa" id="txttarefa" placeholder="Insira uma TAREFA">
+                <button id="btn-tarefa" title="Adicionar" onclick="AdicionarTarefa()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-plus-lg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="conteudo--lista">
+                <ul id="lista">
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Gustavo Ignácio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

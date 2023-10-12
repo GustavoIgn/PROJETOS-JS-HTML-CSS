@@ -1,0 +1,11 @@
+JSON é um formato de arquivo de texto usado para armazenar e transportar dados. É um formato de dados independente de linguagem e plataforma, o que significa que pode ser usado por qualquer linguagem de programação e em qualquer plataforma.
+Os comandos JSON são usados para criar, ler e modificar arquivos JSON. Os principais comandos JSON são:
+* **JSON.parse()** - usado para converter uma string JSON em um objeto JavaScript.
+* **JSON.stringify()** - usado para converter um objeto JavaScript em uma string JSON.
+* **JSON.load()** - usado para carregar um arquivo JSON em um objeto JavaScript.
+* **JSON.dump()** - usado para salvar um objeto JavaScript em um arquivo JSON.
+Aqui está uma breve explicação de cada comando:
+* **JSON.parse()** - O método JSON.parse() converte uma string JSON em um objeto JavaScript. O objeto JavaScript criado terá as mesmas propriedades e valores que o objeto JSON original.
+* **JSON.stringify()** - O método JSON.stringify() converte um objeto JavaScript em uma string JSON. A string JSON criada terá o mesmo formato que o objeto JavaScript original.
+* **JSON.load()** - O método JSON.load() carrega um arquivo JSON em um objeto JavaScript. O objeto JavaScript criado terá as mesmas propriedades e valores que o objeto JSON no arquivo.
+* **JSON.dump()** - O método JSON.dump() salva um objeto JavaScript em um arquivo JSON. O arquivo JSON criado terá o mesmo formato que o objeto JavaScript original.
