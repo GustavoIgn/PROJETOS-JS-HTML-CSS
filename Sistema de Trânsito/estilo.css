@@ -92,3 +92,16 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+footer {
+    font: normal 15pt arial;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    color: #ffffff;
+    padding: 10px 10px 0px 10px;
+}
