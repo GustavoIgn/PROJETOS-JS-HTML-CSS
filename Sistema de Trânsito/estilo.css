@@ -1,0 +1,94 @@
+body, h1, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 255, 200);
+    justify-content: space-between;
+    overflow: auto;
+}
+
+div.lateral {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgba(11, 65, 0, 0.705);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    overflow: auto;
+}
+
+h1 {
+    font: normal Impact, fantasy;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+}
+
+#res {
+    background: rgb(255, 255, 200);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: calc(100% - 445px);
+    left: 400px;
+    padding: 20px;
+    overflow: auto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+input{
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4a7bb169;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

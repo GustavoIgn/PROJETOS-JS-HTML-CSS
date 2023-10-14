@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Sistema de Trânsito</title>
+</head>
+
+<body>
+    <div class="lateral">
+        <h1>ESTATÍSTICAS</h1>
+        <div id="insert">
+            <ul>Cadastrar Estatísticas</ul>
+            <li>
+                <label for="txtCD">Código da Cidade:</label>
+                <input type="number" name="CódigoCidade" id="txtCD" required>
+            </li>
+            <li>
+                <label for="txtNC">Nome da Cidade:</label>
+                <input type="text" name="NomeCidade" id="txtNC" required>
+            </li>
+            <li>
+                <label for="txtQtd">Quantidade de Acidentes:</label>
+                <input type="number" name="QtdAcidentes" id="txtQtd" min="0" required>
+            </li>
+            <button id="Cadastro" onclick="Cadastrar()">Cadastrar</button>
+            <button id="limpar" onclick="Limpar()">Limpar Cadastro Anterior</button>
+
+            <ul>Consulta por Quantidade de Acidentes</ul>
+            <li>
+                <label for="txtMin">Mínimo:</label>
+                <input type="number" name="MinimoAct" id="txtMin" min="0">
+            </li>
+            <li>
+                <label for="txtMax">Máximo:</label>
+                <input type="number" name="MaximoAct" id="txtMax" min="0">
+            </li>
+            <button id="QtdAcidentes" onclick="PQTD()">Exibir</button>
+
+            <ul>Consulta por Estatísticas</ul>
+            <button id="MaiorMenor" onclick="MaiorMenor()">Exibir</button>
+
+            <ul>Acidentes acima da Média (10 Cidades)</ul>
+            <button id="Acima" onclick="PACIMA()">Exibir</button>
+        </div>
+    </div>
+    <div id="res">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
