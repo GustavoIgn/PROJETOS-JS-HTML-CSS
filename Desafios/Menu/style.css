@@ -1,29 +1,25 @@
 body {
     background: rgba(0, 0, 0, 0.8);
     color: white;
-    font: normal 12pt arial;
+    font: normal 12pt Arial, sans-serif;
     text-align: center;
 }
 
 h1 {
     color: rgb(255, 254, 254);
+    font: normal 30pt Arial, sans-serif;
+    margin: 20px 0;
     text-align: center;
-    font: normal 30pt arial;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 section {
     background: rgb(75, 75, 75);
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
-    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 ul {
@@ -41,16 +37,22 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 50px;
     border-radius: 25px;
     background-color: rgb(17, 17, 17);
     transition: background-color 0.3s, transform 0.3s;
+    margin: 0 auto;
 }
 
 a:hover {
     background-color: gray;
     transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
 }
 
 /* Consultas de mídia para responsividade */
