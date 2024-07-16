@@ -1,7 +1,12 @@
-body, h1, ul, li, button {
+body,
+h1,
+ul,
+li,
+button {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -67,7 +72,7 @@ li {
     margin-top: 10px;
 }
 
-input{
+input {
     text-align: center;
 }
 
@@ -104,4 +109,76 @@ footer {
     border-top-right-radius: 0px;
     color: #ffffff;
     padding: 10px 10px 0px 10px;
+}
+
+/* Consultas de mídia para responsividade */
+
+/* Para telas menores, como dispositivos móveis */
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    div.lateral {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        position: static;
+    }
+
+    #res {
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        position: static;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        border-radius: 0;
+        border-top-right-radius: 10px;
+    }
+}
+
+/* Para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    div.lateral {
+        width: 250px;
+    }
+
+    #res {
+        width: calc(100% - 270px);
+        left: 250px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Para desktops */
+@media (min-width: 1025px) {
+    div.lateral {
+        width: 350px;
+    }
+
+    #res {
+        width: calc(100% - 445px);
+        left: 400px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }
