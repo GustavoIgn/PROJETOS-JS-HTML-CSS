@@ -9,7 +9,7 @@ Pretendo adicionar projetinhos que me ajude a entender e aprender como funciona 
 
 2. [**Sistema de Trânsito**](https://gustavoign.github.io/PROJETOS-JS-HTML-CSS/Sistema%20de%20Tr%C3%A2nsito/index.html): Um sistema de estudo com estatística de acidentes em uma cidade. ☑️ 
 
-3. [**Desafios**](https://gustavoign.github.io/PROJETOS-JS-HTML-CSS/Desafios)): Desafios de estudos e projetos de treino. ☑️
+3. [**Desafios**](https://gustavoign.github.io/PROJETOS-JS-HTML-CSS/Desafios/menu.html): Desafios de estudos e projetos de treino. ☑️
 
 4. **...* ➕⁉️
 
