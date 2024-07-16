@@ -5,13 +5,13 @@ Pretendo adicionar projetinhos que me ajude a entender e aprender como funciona 
 
 ## Lista de Projetos
 
-1. **Lista de Tarefas (To-Do List)**: Uma aplicação simples que permite criar, atualizar e marcar tarefas concluídas. ☑️
+1. [**Lista de Tarefas (To-Do List)**]([PROJETOS-JS-HTML-CSS/Lista de TAREFAS at main · GustavoIgn/PROJETOS-JS-HTML-CSS (github.com)](https://github.com/GustavoIgn/PROJETOS-JS-HTML-CSS/tree/main/Lista de TAREFAS)): Uma aplicação simples que permite criar, atualizar e marcar tarefas concluídas. ☑️
 
-2. **Calculadora**: Uma calculadora interativa que executa operações matemáticas básicas. ➕
+2. [**Sistema de Trânsito**](https://github.com/GustavoIgn/PROJETOS-JS-HTML-CSS/tree/main/Sistema de Trânsito): Um sistema de estudo com estatística de acidentes em uma cidade. ☑️ 
 
-3. **Página de Perfil**: Uma página de perfil pessoal com informações e habilidades. 🧔
+3. [**Desafios**](https://github.com/GustavoIgn/PROJETOS-JS-HTML-CSS/tree/main/Desafios): Desafios de estudos e projetos de treino. ☑️
 
 4. **...* ➕⁉️
 
 ## Autor
-- [Gustavo Ignácio]
+- [Gustavo Ignácio](https://github.com/gustavoign)
