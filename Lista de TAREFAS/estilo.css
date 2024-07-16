@@ -144,3 +144,57 @@ footer {
     font: normal 20pt arial;
     font-style: italic;
 }
+
+/* Para telas menores, como dispositivos móveis */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+    #lista li {
+        width: 100%;
+        font-size: 18px;
+    }
+    #btn-tarefa {
+        width: 35px;
+        height: 35px;
+    }
+    header, footer {
+        font-size: 12pt;
+    }
+}
+
+/* Para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    section {
+        width: 80%;
+    }
+    #lista li {
+        width: 100%;
+        font-size: 20px;
+    }
+    #btn-tarefa {
+        width: 35px;
+        height: 35px;
+    }
+    header, footer {
+        font-size: 14pt;
+    }
+}
+
+/* Para desktops */
+@media (min-width: 1025px) {
+    section {
+        width: 500px;
+    }
+    #lista li {
+        width: 450px;
+        font-size: 22px;
+    }
+    #btn-tarefa {
+        width: 40px;
+        height: 40px;
+    }
+    header, footer {
+        font-size: 15pt;
+    }
+}
