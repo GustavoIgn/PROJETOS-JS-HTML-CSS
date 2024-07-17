@@ -11,7 +11,7 @@ Pretendo adicionar projetinhos que me ajude a entender e aprender como funciona 
 
 3. [**Desafios**](https://gustavoign.github.io/PROJETOS-JS-HTML-CSS/Desafios/menu.html): Desafios de estudos e projetos de treino. ☑️
 
-4. [**Site Protótipo**](https://gustavoign.github.io/PROJETOS-JS-HTML-CSS/Desafios/Site%20Geral/index.html): Um modelo de site criado como estudo primário.
+4. [**Site Protótipo**](https://gustavoign.github.io/PROJETOS-JS-HTML-CSS/Site%20Geral/index.html): Um modelo de site criado como estudo primário.
 
 5. **...* ➕⁉️
 
